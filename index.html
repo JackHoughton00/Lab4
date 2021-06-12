@@ -37,6 +37,7 @@ Many websites will use what is called CSS grid layouts, where you will have a he
         <p>Located at 50 Rideau Street, we are a state of the start physiotherapy clinic located in the heart of the Ottawa. Founded in 2013, we are commited to giving each of our patients the highest quality care possible. <br> We specialize in working with athletes of all levels to assist them perform to their highest posssible level. <br>We also offer a variety of different services and our team will work with you to create the best course of action to best help you!</p>
 
     </div>
+    <br>
         <!-- This example is using what is called an accordian, this is one of three examples
     https://getbootstrap.com/docs/5.0/components/accordion/-->
     
@@ -73,26 +74,27 @@ Many websites will use what is called CSS grid layouts, where you will have a he
             </div>
         </div>
         <div class="accordion-item">
-            <h3 class="accordion-header" id="flush-headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            <h3 class="accordion-header" id="flush-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
                     Acupuncture
                 </button>
             </h3>
-            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">Come see one of our acupuncture specialists to help treat issues such as migranes, arthritis, chronic pain and stress! Starting at $75 a session, first schedule a consultation appointment with one of our specialists to better determine the best course of action. Your first three sessions are free of charge! </div>
             </div>
         </div>
         <div class="accordion-item">
-            <h3 class="accordion-header" id="flush-headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            <h3 class="accordion-header" id="flush-headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
                     Massage Therapy
                 </button>
             </h3>
-            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">We offer many different types of massages including, deep tissue massages, sports massages and trigger point massages. Come see one of our masseuses today to determine the best course of action for you! For first time patients, your first massage is free of charge. However, subesquent appoinments will be $100 a session.</div>
             </div>
         </div>
     </div>
+    <br>
 
     <h2>Meet our Team!</h2>
     <div class="row justify-content-around">
@@ -115,24 +117,7 @@ Many websites will use what is called CSS grid layouts, where you will have a he
             </div>
         </div>
     </div>
-
-    <!--
-    We can also use buttons to expand some hidden options
-    https://getbootstrap.com/docs/5.0/components/collapse/
-    -->
-    <div class ="d-grid gap-2">
-    <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-        Contact Us. 
-    </button>
-    </div>
-
-    <div class="collapse" id="collapseExample">
-        <div class="card card-body">
-            We are located at Rideau Centre Mall 50 Rideau St Suite 300, Ottawa, CA K1N 9J7<br>
-            Our phone number is (613)-555-5555<br>
-            Our email address is contact@ottawaphysio.ca
-        </div>
-    </div>
+    <br>
 
     <!-- Button trigger modal
     We use the same button code from above, but now we can trigger a modal to appear.
@@ -202,6 +187,23 @@ Many websites will use what is called CSS grid layouts, where you will have a he
             </div>
         </div>
     </div>
+    <!--
+    We can also use buttons to expand some hidden options
+    https://getbootstrap.com/docs/5.0/components/collapse/
+    -->
+    <div class ="d-grid gap-2">
+        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            Contact Us
+        </button>
+        </div>
+    
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+                We are located at Rideau Centre Mall 50 Rideau St Suite 300, Ottawa, CA K1N 9J7<br>
+                Our phone number is (613)-555-5555<br>
+                Our email address is contact@ottawaphysio.ca
+            </div>
+        </div>
 </div>
 <!-- here we input our javascript helper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
