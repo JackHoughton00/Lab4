@@ -4,7 +4,31 @@ td{
 p{
     font-size: 20px;
 }
-.btn{
+.btn {
     margin-top: 10px;
     margin-bottom: 10px;
+
+}
+
+.btn-block{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+h1 {
+    font-family: American Typewriter;
+    
+}
+
+h2 {
+    
+    font-family: Palatino;
+    font-weight: bold;
+
+}
+
+p {
+    font-family: Palatino;
+    font-size: 18px;
 }
