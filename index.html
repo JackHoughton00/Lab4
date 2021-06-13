@@ -118,6 +118,23 @@ Many websites will use what is called CSS grid layouts, where you will have a he
         </div>
     </div>
     <br>
+        <!--
+    We can also use buttons to expand some hidden options
+    https://getbootstrap.com/docs/5.0/components/collapse/
+    -->
+    <div class ="d-grid gap-2">
+        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            Contact Us
+        </button>
+        </div>
+    
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+                We are located at Rideau Centre Mall 50 Rideau St Suite 300, Ottawa, CA K1N 9J7<br>
+                Our phone number is (613)-555-5555<br>
+                Our email address is contact@ottawaphysio.ca
+            </div>
+        </div>
 
     <!-- Button trigger modal
     We use the same button code from above, but now we can trigger a modal to appear.
@@ -187,23 +204,7 @@ Many websites will use what is called CSS grid layouts, where you will have a he
             </div>
         </div>
     </div>
-    <!--
-    We can also use buttons to expand some hidden options
-    https://getbootstrap.com/docs/5.0/components/collapse/
-    -->
-    <div class ="d-grid gap-2">
-        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-            Contact Us
-        </button>
-        </div>
-    
-        <div class="collapse" id="collapseExample">
-            <div class="card card-body">
-                We are located at Rideau Centre Mall 50 Rideau St Suite 300, Ottawa, CA K1N 9J7<br>
-                Our phone number is (613)-555-5555<br>
-                Our email address is contact@ottawaphysio.ca
-            </div>
-        </div>
+
 </div>
 <footer>Website designed by: Me</footer>
 <!-- here we input our javascript helper -->
